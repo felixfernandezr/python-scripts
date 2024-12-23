@@ -1,9 +1,10 @@
+# Organize your downloads folder files into seperate folders
+
 import os
 import shutil
 
 # Define the directories to search for files
 downloads_folder = os.path.join(os.path.expanduser('~'), "Downloads")
-# desktop_folder = os.path.join(os.path.expanduser('~'), "Desktop")
 
 # Define the folder names for organizing files
 folders = {
